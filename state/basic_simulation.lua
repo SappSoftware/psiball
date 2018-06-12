@@ -7,9 +7,16 @@ local fields = {}
 --[[
 Player States:
   hasBall
-  
+    pass
+    hold
+    throw
+    
   noHasBall
-  
+    hold
+    catch
+    steal
+    intercept
+    pick up loose ball
 ]]--
 
 function basic_simulation:init()
